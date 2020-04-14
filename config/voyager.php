@@ -137,6 +137,11 @@ return [
                 'icon_class'   => 'voyager-home',
                 'target_blank' => true,
             ],
+            'voyager::generic.settings' => [
+                'route'        => '/',
+                'icon_class'   => 'voyager-settings',
+                'target_blank' => true,
+            ],
             'voyager::generic.logout' => [
                 'route'      => 'voyager.logout',
                 'icon_class' => 'voyager-power',
@@ -183,7 +188,7 @@ return [
     |
     */
 
-    'primary_color' => '#22A7F0',
+    'primary_color' => '#22f042',
 
     'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
 
